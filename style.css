@@ -1,0 +1,275 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+header {
+    background: url("image/header_photo.jpg");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+}
+@keyframes rainbow {
+    0% {
+        background: rgb(244, 0, 0);
+    }
+    100% {
+        background: rgba(5, 5, 176, 1);
+    }
+}
+.headlines {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.headline {
+    font-size: 50px;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.headlines_header {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 800px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    text-align: center;
+    clear: both;
+}
+.headline_header1 {
+    font-size: 60px;
+}
+.headline_header2 {
+    font-size: 40px;
+}
+.baellery {
+    font-size: 60px;
+    color: rgba(252, 8, 8, 1);
+}
+.order_button {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 180px;
+    padding: 10px 35px;
+    margin: 100px auto;
+    border-radius: 10px;
+    text-align: center;
+    animation: rainbow 1s linear infinite alternate;
+}
+.order_button:hover {
+    animation-play-state: paused;
+    border: 1px solid white;
+}
+.logo {
+    display: block;
+    width: 200px;
+    margin: 0 auto 0 auto;
+}
+.order_button:hover {
+    background-color: rgba(252, 8, 8, 1);
+}
+.s1 {
+    height: 700px;
+    padding-top: 20px;
+    background: url("image/65.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.description_text {
+    display: block;
+    width: 500px;
+    padding-top: 60px;
+    padding-left: 40px;
+    font-size: 20px;
+    clear: both;
+}
+.image9 {
+    width: 430px;
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    border-radius: 30px;
+}
+.image10 {
+    width: 430px;
+    position: absolute;
+    left: 610px;
+    border-radius: 30px;
+}
+.character {
+    float: right;
+    margin-top: 135px;
+    margin-right: 170px;
+    clear: both;
+}
+.character li {
+    font-size: 20px;
+    padding-top: 13px;
+}
+.s2 {
+    background: url("image/11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+.sale {
+    width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    border-radius: 30px;
+}
+.image228 {
+    width: 430px;
+}
+.image30 {
+    width: 140px;
+    position: absolute;
+    top: 30px;
+    left: 320px;
+}
+.offer {
+    float: right;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+.span1 {
+    font-size: 50px;
+    color: red;
+}
+.span2 {
+    font-size: 29px;
+}
+.span3 {
+    display: block;
+    margin-top: 60px;
+    font-size: 25px;
+    text-decoration: line-through;
+}
+.span4 {
+    font-size: 35px;
+    font-weight: bold;
+}
+.we {
+    margin: 100px auto;
+}
+.we_image {
+    height: 100px;
+    transition-property: height;
+    transition-duration: 0.3s;
+}
+.we_image:hover {
+    height: 110px;
+}
+.we1 div {
+    height: 110px;
+}
+.we1 {
+    display: inline-table;
+    text-align: center;
+    width: 330px;
+    height: 200px;
+    float: left;
+}
+.we1:last-child {
+    float: right;
+}
+.we1:nth-child(2) {
+    float: left;
+    margin-left: 53px;
+}
+.we_headline1 {
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.we_headline2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.s4 {
+    background: url("image/fon2.jpg") top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.order_form {
+    background-color: grey;
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 30px;
+}
+.s4 .headline {
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+.form_design {
+    margin-bottom: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+.form_design input {
+    width: 250px;
+    height: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgba(148, 148, 148, 1);
+}
+.form_design input[type=text] {
+    font-size: 20px;
+    text-align: center;
+}
+.form_design label {
+    font-size: 20px;
+}
+.form_design button {
+    animation: rainbow 1s linear infinite alternate;
+    font-size: 19px;
+    color: white;
+    width: 190px;
+    height: 37px;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+.form_design button:hover {
+    animation-play-state: paused;
+    border: 1px solid white;
+}
+footer {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    background: red;
+}
+footer h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+footer h4 {
+    text-align: center;
+}
